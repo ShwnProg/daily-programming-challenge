@@ -1,0 +1,8 @@
+C:\Users\Administrator\OneDrive\Desktop\C# practice\Day4 - Day6\Day4 - Day6\bin\Debug\Day4 - Day6.exe.config
+C:\Users\Administrator\OneDrive\Desktop\C# practice\Day4 - Day6\Day4 - Day6\bin\Debug\Day4 - Day6.exe
+C:\Users\Administrator\OneDrive\Desktop\C# practice\Day4 - Day6\Day4 - Day6\bin\Debug\Day4 - Day6.pdb
+C:\Users\Administrator\OneDrive\Desktop\C# practice\Day4 - Day6\Day4 - Day6\obj\Debug\Day4 - Day6.csproj.AssemblyReference.cache
+C:\Users\Administrator\OneDrive\Desktop\C# practice\Day4 - Day6\Day4 - Day6\obj\Debug\Day4 - Day6.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\OneDrive\Desktop\C# practice\Day4 - Day6\Day4 - Day6\obj\Debug\Day4 - Day6.exe
+C:\Users\Administrator\OneDrive\Desktop\C# practice\Day4 - Day6\Day4 - Day6\obj\Debug\Day4 - Day6.pdb
+C:\Users\Administrator\OneDrive\Desktop\C# practice\Day4 - Day6\Day4 - Day6\obj\Debug\Day4 - Day6.exe.config
