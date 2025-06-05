@@ -1,0 +1,8 @@
+C:\Users\Administrator\OneDrive\Desktop\C# practice\Day 9\Day 9\bin\Debug\Day 9.exe.config
+C:\Users\Administrator\OneDrive\Desktop\C# practice\Day 9\Day 9\bin\Debug\Day 9.exe
+C:\Users\Administrator\OneDrive\Desktop\C# practice\Day 9\Day 9\bin\Debug\Day 9.pdb
+C:\Users\Administrator\OneDrive\Desktop\C# practice\Day 9\Day 9\obj\Debug\Day 9.csproj.AssemblyReference.cache
+C:\Users\Administrator\OneDrive\Desktop\C# practice\Day 9\Day 9\obj\Debug\Day 9.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\OneDrive\Desktop\C# practice\Day 9\Day 9\obj\Debug\Day 9.exe
+C:\Users\Administrator\OneDrive\Desktop\C# practice\Day 9\Day 9\obj\Debug\Day 9.pdb
+C:\Users\Administrator\OneDrive\Desktop\C# practice\Day 9\Day 9\obj\Debug\Day 9.exe.config
