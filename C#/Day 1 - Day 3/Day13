@@ -1,0 +1,31 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Day13
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            char[] Chars = { 'e', 'd', 'c', 'b', 'a' };
+            int[] numbers = { 10, 9, 8, 7, 6, 5, 4, 3, 2, 1 };
+            string[] names = { "Shawn", "Amaya","Anna","Zoro"};
+
+            Array.Sort(Chars);
+
+            Console.WriteLine(" " + new string(Chars));
+
+            Array.Sort(numbers);
+
+            Console.WriteLine(string.Join(", ", numbers));
+
+            Array.Sort(names);
+
+            Console.WriteLine(string.Join(" , ", names));
+
+        }
+    }
+}
