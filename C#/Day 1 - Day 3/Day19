@@ -1,0 +1,36 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Day19
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            string word = "racecar";
+
+            char[] Chars = word.ToCharArray();
+
+            string reverse = "";
+
+            for (int i = Chars.Length - 1; i >= 0; i--)
+            {
+                reverse += Chars[i];
+
+
+            }
+
+            if (reverse == word)
+            {
+                Console.WriteLine("Palindrome.");
+            }
+            else
+            {
+                Console.WriteLine("Not palindrome.");
+            }
+        }
+    }
+}
