@@ -1,0 +1,27 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.IO;
+namespace Day23
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            string[] employees = { "Shawn", "Marl", "Anna" };
+
+            File.WriteAllLines("employees.txt", employees);
+
+            string[] read = File.ReadAllLines("employees.txt");
+
+            Console.WriteLine("Employess Name");
+
+            foreach(var names in read)
+            {
+                Console.WriteLine(names);
+            }
+        }
+    }
+}
