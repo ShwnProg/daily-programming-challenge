@@ -1,0 +1,60 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Day22
+{
+    public class Program
+    {
+        static void Main(string[] args)
+        {
+
+            string Name = "Shawn";
+            double salary = 30000;
+
+            Employee employee1 = new Employee(Name,salary);
+
+            employee1.Name = Name;
+            employee1.age = "20";
+            employee1.id = "1111-1";
+            employee1.Salary = salary;
+
+            List<Employee> employees = new List<Employee>();
+
+            employees.Add(employee1);
+
+
+
+            foreach (Employee emp in employees)
+            {
+                Console.WriteLine($"Name: {emp.Name}, Age: {emp.age}, ID: {emp.id}, Salary: {emp.Salary}");
+            }
+        }
+    }
+    public class Employee
+    {
+        public string Name { get; set; }
+        public string age { get; set; }
+        public string id { get; set; }
+        public double Salary { get; set; }
+
+        public Employee(string name ,double salary)
+        {
+           this.Name = name;
+           this.Salary = salary;
+        }
+    }
+
+    public class Manager : Employee
+    {
+        public double Salary { get; set; }
+
+        public Manager(string owner, double salary) : base(owner,salary)
+        {
+            this.Salary = salary;
+        }
+
+    }
+}
