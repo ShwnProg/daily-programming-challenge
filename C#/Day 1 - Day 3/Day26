@@ -1,0 +1,35 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Day26
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Dictionary<string,double> employeeSalary = new Dictionary<string, double>();
+            employeeSalary["Shawn"] = 50000;
+            employeeSalary["Juan"] = 10000;
+            employeeSalary["Mark"] = 12000;
+
+            Console.WriteLine("Employee Salary");
+
+            foreach(var sal in employeeSalary)
+            {
+                Console.WriteLine("{0} : {1}",sal.Key,sal.Value);
+            }
+
+            Console.Write("\n\n Enter employee name to show salary : ");
+            string name = Console.ReadLine();
+
+            if (employeeSalary.ContainsKey(name))
+            {
+                Console.WriteLine("\n {0} average salary is : {1}", name, employeeSalary[name]);
+            }
+
+        }
+    }
+}
